@@ -6,8 +6,8 @@ Smart curtain system: Android app (Java) controls ESP8266 via AWS IoT (MQTT). ES
 <!-- Main Photos -->
 <h3>🏠 Main Images</h3>
 <p align="center">
-  <img src="https://github.com/Oleksandr-Na-no/SmartRollerBlind_Project/blob/main/Images/Main_img_1.jpg" width="400" />
-  <img src="https://github.com/Oleksandr-Na-no/SmartRollerBlind_Project/blob/main/Images/Main_img_2.jpg" width="400" />
+  <img src="https://github.com/Oleksandr-Na-no/SmartRollerBlind_Project/blob/main/Images/main_img_1.jpg" width="400" />
+  <img src="https://github.com/Oleksandr-Na-no/SmartRollerBlind_Project/blob/main/Images/main_img_2.jpg" width="400" />
 </p>
 
 <!-- 3D Models -->
@@ -48,6 +48,6 @@ Smart curtain system: Android app (Java) controls ESP8266 via AWS IoT (MQTT). ES
 <!-- Figma Design -->
 <h3>🎨 Figma Design</h3>
 <p align="center">
-  <img src="https://github.com/Oleksandr-Na-no/SmartRollerBlind_Project/blob/main/Images/Figma.png" width="400" />
+  <img src="https://github.com/Oleksandr-Na-no/SmartRollerBlind_Project/blob/main/Images/figma.png" width="400" />
 </p>
 
