@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Circular">
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="Switch">
+        <item name="android:elevation">10dp</item>
+        <item name="layout_constraintDimensionRatio">2:1</item>
+        <item name="switchBkgCheckedColor">?colorAccent</item>
+        <item name="switchBkgNotCheckedColor">?colorPrimary</item>
+        <item name="switchDesign">large</item>
+        <item name="switchToggleCheckedColor">?colorSecondary</item>
+        <item name="switchToggleNotCheckedColor">?colorSecondary</item>
+    </style>
+    <style name="Button" parent="@style/Widget.Material3.Button.ElevatedButton" >
+        <item name="layout_constraintDimensionRatio">7:2</item>
+        <item name="android:textColor">?colorSecondaryVariant</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:backgroundTint">?colorAccent</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:elevation">5dp</item>
+        <item name="android:textColor">?colorSecondaryVariant</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Edit_Text" parent="Text">
+        <item name="android:elevation">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="layout_constraintDimensionRatio">6:1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+        <item name="android:backgroundTint">?colorAccent</item>
+        <item name="android:background">@drawable/blok_3</item>
+    </style>
+
+    <style name="Block">
+        <item name="android:background">@drawable/blok</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="Icon">
+        <item name="tint">?colorAccent</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="Back" parent="Icon">
+        <item name="srcCompat">@drawable/ic_baseline_arrow_back_ios_24</item>
+    </style>
+
+    <style name="menuStyle"> >
+<!--        <item name="android:textSize">50dp</item>-->
+<!--        <item name="android:subMenuArrow">@drawable/ic_baseline_arrow_back_ios_24</item>-->
+<!--        <item name="android:textColorSecondary">@android:color/white</item>-->
+    </style>
+    <style name="cardview">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+    </style>
+
+
+
+<!--    <style name="">-->
+<!--        <item name=""></item>-->
+<!--        <item name=""></item>-->
+<!--        <item name=""></item>-->
+<!--    </style>-->
+
+</resources>

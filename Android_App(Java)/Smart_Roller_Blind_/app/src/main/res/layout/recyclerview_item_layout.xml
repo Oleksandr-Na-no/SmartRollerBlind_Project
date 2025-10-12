@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="5dp"
+    app:cardCornerRadius="15dp"
+    >
+
+    <View
+        style="@style/Block"
+        android:elevation="0dp"
+        android:id="@+id/view4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        style="@style/Icon"
+            app:tint="?colorAccent"
+            android:id="@+id/idIVcourseIV"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonm"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view4"
+            app:srcCompat="@drawable/ic_baseline_crop_original_24" />
+
+        <TextView
+            android:elevation="0dp"
+            style="@style/Text"
+            android:id="@+id/idTVCourse"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="left"
+            android:text="Project Name"
+            android:autoSizeTextType="none"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonm"
+            app:layout_constraintEnd_toStartOf="@+id/idIVcourseIV"
+            app:layout_constraintStart_toStartOf="@+id/view4"
+            app:layout_constraintTop_toTopOf="@+id/view4" />
+
+        <View
+            android:elevation="5dp"
+            app:layout_constraintDimensionRatio="25:10"
+            android:text="On"
+            android:autoSizeTextType="uniform"
+            android:id="@+id/buttonm"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/view4"
+            app:layout_constraintEnd_toEndOf="@+id/view4"
+            app:layout_constraintStart_toStartOf="@+id/view4" />
+
+        <TextView
+            style="@style/Text"
+            android:textColor="?colorSecondaryVariant"
+            android:id="@+id/text2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Offline"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonm"
+            app:layout_constraintEnd_toEndOf="@+id/buttonm"
+            app:layout_constraintStart_toStartOf="@+id/buttonm"
+            app:layout_constraintTop_toTopOf="@+id/buttonm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

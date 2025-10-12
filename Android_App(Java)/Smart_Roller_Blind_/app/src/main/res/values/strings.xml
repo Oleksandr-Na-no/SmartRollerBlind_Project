@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Smart_Roller_Blind</string>
+    <string name="Next">Next</string>
+    <string name="Save">Save</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="Please_Conect">Please Conect to Wi-Fi \"ESP32\"</string>
+    <string name="Network_Name">Network Name</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="Conect">Conect</string>
+    <string name="Network_Password">Network Password</string>
+    <string name="Settings">Settings</string>
+    <string name="Delete">Delete</string>
+    <string name="Device_name">Enter device name</string>
+    <string name="Top_pos">Adjust the Top posion</string>
+    <string name="Up">UP</string>
+    <string name="Down">Down</string>
+    <string name="Stop">Stop</string>
+    <string name="Bottom_pos">Adjust the Bottom posion</string>
+    <string name="Auto_top_pos">Auto position</string>
+    <string name="Adjust_the_Speed">Adjust the Speed</string>
+    <string name="Offline">Offline</string>
+    <string name="Unavaible">The device is unavaible</string>
+    <string name="Add_Device">Add new device</string>
+    <string name="Turn_off_Mobile_Data">Please turn off Mobile Data</string>
+    <string name="Sending">Send to devise</string>
+    <string name="Connect_to_Internet">Please connect to Internet</string>
+    <string name="Connecting_to_devise">Connecting to devise</string>
+    <string name="Setting_up_device">Setting up device</string>
+    <string name="Speed">Speed</string>
+    <string name="OR">OR</string>
+    <string name="Code">Code</string>
+    <string name="Device">Device</string>
+    <string name="Alarms">Alarms</string>
+
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Weekdays">Weekdays</string>
+    <string name="Weekend">Weekend</string>
+    <string name="Always">Always</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string-array name="Weekdays">
+        <item>@string/Monday</item>
+        <item>@string/Tuesday</item>
+        <item>@string/Wednesday</item>
+        <item>@string/Thursday</item>
+        <item>@string/Friday</item>
+        <item>@string/Saturday</item>
+        <item>@string/Sunday</item>
+        <item>@string/Weekdays</item>
+        <item>@string/Weekend</item>
+        <item>@string/Always</item>
+    </string-array>
+
+    <string-array name="ON_OFF">
+        <item>@string/On</item>
+        <item>@string/Off</item>
+    </string-array>
+    <string name="Swipe_to_delete">Swipe to delete >></string>
+    <string name="Max_alarms">10 Alarms max</string>
+    <string name="Error_add_devide">Error add devide</string>
+    <string name="Error_input">Error input</string>
+    <string name="No_Internet">No Internet</string>
+
+</resources>

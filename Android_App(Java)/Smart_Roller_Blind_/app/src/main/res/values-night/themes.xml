@@ -1,0 +1,111 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#06283D</item>
+        <item name="colorPrimaryVariant">#256D85</item>
+        <item name="colorAccent">#47B5FF</item>
+        <item name="colorSecondary">#DFF6FF</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+    <style name="Theme2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#FFB200</item>
+        <item name="colorPrimaryVariant">#277BC0</item>
+        <item name="colorAccent">#FFCB42</item>
+        <item name="colorSecondary">#FFF4CF</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+    <style name="Theme3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#3D5656</item>
+        <item name="colorPrimaryVariant">#68B984</item>
+        <item name="colorAccent">#CFFDE1</item>
+        <item name="colorSecondary">#FED049</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+    <style name="Theme4" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#344D67</item>
+        <item name="colorPrimaryVariant">#6ECCAF</item>
+        <item name="colorAccent">#ADE792</item>
+        <item name="colorSecondary">#F3ECB0</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+    <style name="Theme5" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#293462</item>
+        <item name="colorPrimaryVariant">#F24C4C</item>
+        <item name="colorAccent">#EC9B3B</item>
+        <item name="colorSecondary">#F7D716</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+    <style name="Theme6" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#BDF2D5</item>
+        <item name="colorPrimaryVariant">#4B5D67</item>
+        <item name="colorAccent">#3C2C3E</item>
+        <item name="colorSecondary">#FF06B7</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+    <style name="Theme7" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#393E46</item>
+        <item name="colorPrimaryVariant">#6D9886</item>
+        <item name="colorAccent">#F2E7D5</item>
+        <item name="colorSecondary">#F7F7F7</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+
+    </style>
+
+    <style name="Theme8" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/Dark2</item>
+        <item name="colorPrimaryVariant">@color/Dark1</item>
+        <item name="colorAccent">@color/Dark3</item>
+        <item name="colorSecondary">#47B5FF</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Smart_Roller_Blind" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#FFB200</item>
+        <item name="colorPrimaryVariant">#277BC0</item>
+        <item name="colorOnPrimary">#FFCB42</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FFF4CF</item>
+        <item name="colorSecondaryVariant">#000000</item>
+        <item name="colorOnSecondary">#FF3232</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowBackground">?colorPrimary</item>
+    </style>
+</resources>
